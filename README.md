@@ -49,26 +49,7 @@ To run this project locally, you will need the following tools installed:
 Navigate to the project directory:
 
 cd Connectify-Smart-Contact-Organizer
-Configure the database connection in src/main/resources/application.properties:
 
-For MySQL:
-
-properties
- 
-spring.datasource.url=jdbc:mysql://localhost:3306/contact_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
- 
-  
-mvn clean install
-Run the application:
-
- 
-mvn spring-boot:run
-Open your browser and go to http://localhost:8080 to access the system.
-
-API Endpoints
 The system exposes the following RESTful API endpoints for managing contacts:
 
 1. Create a Contact
@@ -95,12 +76,6 @@ Method: GET
 URL: /api/contacts/search?query={search-term}
 
 Method: GET
-
- 
-User Authentication
-Register User: Register users to gain access to the system. (Use Spring Security for authentication and authorization.)
-Login: Users can log in with credentials, and an authentication token (JWT) is returned for making authenticated API requests.
-Contributing 
 
 Email: [ajayambule2003@gmail.com]
 GitHub: https://github.com/ajayambule2003
