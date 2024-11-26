@@ -4,9 +4,9 @@ A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Sprin
 
 ---
 
-## Features 
+## Features  
 
-- **Add/Update/Delete Contacts**: Easily manage contact details (name, phone, email, etc.). 
+- **Add/Update/Delete Contacts**: Easily manage contact details (name, phone, email, etc.).
 - **Search & Filter**: Quickly search and filter contacts based on various attributes.
 - **User Authentication**: Secure login system with role-based access control to protect sensitive contact data.
 - **RESTful API**: Exposes an API for integrating with third-party services and applications.
