@@ -19,7 +19,7 @@ A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Sprin
 ## Tech Stack
 
 - **Backend**: Spring Boot (Java)
-- **Frontend**: simple Thymeleaf-based UI or HTML , css and js.
+- **Frontend**: Simple Thymeleaf-based UI or HTML, CSS, and JavaScript
 - **Database**: MySQL
 - **Authentication**: Spring Security with JWT
 - **API Documentation**: Postman
@@ -36,46 +36,69 @@ A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Sprin
 To run this project locally, you will need the following tools installed:
 
 - **Java**: JDK 11 or higher
-- **Maven**: for project management and dependency handling
+- **Maven**: For project management and dependency handling
 - **Database**: MySQL 
-- **IDE**:  STS
+- **IDE**: STS
 
 ### Steps to Run Locally
 
 1. Clone the repository:
 
-   
-   git clone  https://github.com/ajayambule2003/Connectify-Smart-Contact-Organizer.git
-Navigate to the project directory:
+   ```bash
+   git clone https://github.com/ajayambule2003/Connectify-Smart-Contact-Organizer.git
+   ```
 
-cd Connectify-Smart-Contact-Organizer
+2. Navigate to the project directory:
+
+   ```bash
+   cd Connectify-Smart-Contact-Organizer
+   ```
+
+3. Configure the application properties file with your MySQL database credentials.
+
+4. Build the project using Maven:
+
+   ```bash
+   mvn clean install
+   ```
+
+5. Run the application:
+
+   ```bash
+   mvn spring-boot:run
+   ```
+
+6. Access the application in your browser at `http://localhost:8080`.
+
+---
+
+## RESTful API Endpoints
 
 The system exposes the following RESTful API endpoints for managing contacts:
 
-1. Create a Contact
-URL: /api/contacts
-
-Method: POST
+1. **Create a Contact**
+   - **URL**: `/api/contacts`
+   - **Method**: POST
  
-2. Update a Contact
-URL: /api/contacts/{id}
-
-Method: PUT
+2. **Update a Contact**
+   - **URL**: `/api/contacts/{id}`
+   - **Method**: PUT
  
-3. Delete a Contact
-URL: /api/contacts/{id}
-
-Method: DELETE
+3. **Delete a Contact**
+   - **URL**: `/api/contacts/{id}`
+   - **Method**: DELETE
  
-4. Get All Contacts
-URL: /api/contacts
-
-Method: GET
+4. **Get All Contacts**
+   - **URL**: `/api/contacts`
+   - **Method**: GET
  
-5. Search Contacts
-URL: /api/contacts/search?query={search-term}
+5. **Search Contacts**
+   - **URL**: `/api/contacts/search?query={search-term}`
+   - **Method**: GET
 
-Method: GET
+---
 
-Email: [ajayambule2003@gmail.com]
-GitHub: https://github.com/ajayambule2003
+## Contact Information
+
+- **Email**: [ajayambule2003@gmail.com](mailto:ajayambule2003@gmail.com)
+- **GitHub**: [https://github.com/ajayambule2003](https://github.com/ajayambule2003)
