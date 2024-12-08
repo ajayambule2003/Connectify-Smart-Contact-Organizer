@@ -44,4 +44,9 @@ public class Contact {
     @OneToMany(mappedBy = "contact", cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     private List<SocialLink> links = new ArrayList<>();
 
+	public void setId(String contactId) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

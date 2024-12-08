@@ -10,9 +10,9 @@ A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Sprin
 - **Search & Filter**: Quickly search and filter contacts based on various attributes.
 - **User Authentication**: Secure login system with role-based access control to protect sensitive contact data. 
 - **RESTful API**: Exposes an API for integrating with third-party services and applications.
-- **Database Integration**: Stores contact information securely in a database. 
-- **Responsive UI**: A responsive user interface that works seamlessly across desktop and mobile devices.
-- **Optimized for Scalability**: The system is designed to scale as the number of users or contacts grows.
+- **Database Integration**: Stores contact information securely in a database.  
+- **Responsive UI**: A responsive user interface that works seamlessly across desktop and mobile devices. 
+- **Optimized for Scalability**: The system is designed to scale as the number of users or contacts grows. 
 
 ---
 

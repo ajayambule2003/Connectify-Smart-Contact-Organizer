@@ -110,4 +110,29 @@ public class User implements UserDetails {
         return this.password;
     }
 
+	public void setUserId(String userId2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object getProvider() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setPassword(String encode) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setRoleList(List<String> of) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setEmailToken(String emailToken2) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
