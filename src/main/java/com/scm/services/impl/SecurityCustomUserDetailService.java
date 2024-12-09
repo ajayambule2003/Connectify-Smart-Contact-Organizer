@@ -11,7 +11,7 @@ import com.scm.repsitories.UserRepo;
 @Service
 public class SecurityCustomUserDetailService implements UserDetailsService {
 
-    @Autowired
+    @Autowired 
     private UserRepo userRepo;
 
     @Override

@@ -79,7 +79,7 @@ public class UserServiceImpl implements UserService {
         user2.setEnabled(user.isEnabled());
         user2.setEmailVerified(user.isEmailVerified());
         user2.setPhoneVerified(user.isPhoneVerified());
-        user2.setProvider(user.getProvider());
+        // user2.setProvider(user.getProvider());
         user2.setProviderUserId(user.getProviderUserId());
         // save the user in database
         User save = userRepo.save(user2);
