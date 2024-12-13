@@ -19,7 +19,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class ContactForm {
-//
+
+// Message
     @NotBlank(message = "Name is required")
     private String name;
 
