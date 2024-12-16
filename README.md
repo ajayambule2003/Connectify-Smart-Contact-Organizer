@@ -1,9 +1,9 @@
 # Connectify-Smart-Contact-Organizer
 
 A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Spring Boot**. This application allows users to efficiently manage contact information, including adding, updating, deleting, and searching contacts. It is designed to streamline communication management for businesses and individuals.
-
+ 
 ---
-
+ 
 ## Features 
 
 - **Add/Update/Delete Contacts**: Easily manage contact details (name, phone, email, etc.). 
@@ -13,9 +13,9 @@ A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Sprin
 - **Database Integration**: Stores contact information securely in a database.  
 - **Responsive UI**: A responsive user interface that works seamlessly across desktop and mobile devices. 
 - **Optimized for Scalability**: The system is designed to scale as the number of users or contacts grows. 
-
+ 
 ---
-
+ 
 ## Tech Stack
 
 - **Backend**: Spring Boot (Java)
