@@ -16,7 +16,6 @@ class ApplicationTests {
 
 	void contextLoads() {
 	}
-//
 //	@Autowired
 //	private EmailService service;
 //
