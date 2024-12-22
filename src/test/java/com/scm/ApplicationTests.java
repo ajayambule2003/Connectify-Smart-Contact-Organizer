@@ -11,6 +11,7 @@ class ApplicationTests {
 //	@Autowired
 //	private EmailService service;
 //
+// 
 //	void sendEmailTest() {
 //		service.sendEmail("batchlcwd@gmail.com", "Just managing the emails",
 //				"this is scm project working on email service");
@@ -18,7 +19,6 @@ class ApplicationTests {
 //
 //
 //	void testUnits() {
-//
 //
 //		int result=40;
 //
