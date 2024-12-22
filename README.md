@@ -13,9 +13,9 @@ A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Sprin
 - **Database Integration**: Stores contact information securely in a database.  
 - **Responsive UI**: A responsive user interface that works seamlessly across desktop and mobile devices. 
 - **Optimized for Scalability**: The system is designed to scale as the number of users or contacts grows. 
- 
+
 ---
- 
+
 ## Tech Stack
 
 - **Backend**: Spring Boot (Java)
