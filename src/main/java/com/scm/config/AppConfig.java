@@ -12,6 +12,7 @@ import com.cloudinary.utils.ObjectUtils;
 @Configuration
 public class AppConfig {
 
+
     @Value("${cloudinary.cloud.name}")
     private String cloudName;
 
