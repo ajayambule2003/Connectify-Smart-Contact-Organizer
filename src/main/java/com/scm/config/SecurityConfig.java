@@ -9,18 +9,19 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+
 import com.scm.services.impl.SecurityCustomUserDetailService;
 
 @Configuration
 public class SecurityConfig {
 
     // user create and login using java code with in memory service
-
+    //
     // @Bean
     // public UserDetailsService userDetailsService() {
     //About
     // UserDetails user1 = User
-    // .withDefaultPasswordEncoder()
+    // .withDefaultPasswordEncoder() 
     // .username("admin123")
     // .password("admin123")
     // .roles("ADMIN", "USER")
