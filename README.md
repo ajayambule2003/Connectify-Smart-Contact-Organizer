@@ -1,5 +1,5 @@
 # Connectify-Smart-Contact-Organizer
-
+ 
 A robust and scalable **Connectify-Smart-Contact-Organizer** built using **Spring Boot**. This application allows users to efficiently manage contact information, including adding, updating, deleting, and searching contacts. It is designed to streamline communication management for businesses and individuals.
  
 ---
