@@ -16,7 +16,7 @@ import com.scm.services.impl.SecurityCustomUserDetailService;
 public class SecurityConfig {
 
     // user create and login using java code with in memory service
-    //
+    
     // @Bean
     // public UserDetailsService userDetailsService() {
     //About
