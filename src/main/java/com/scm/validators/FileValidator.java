@@ -10,9 +10,8 @@ public class FileValidator implements ConstraintValidator<ValidFile, MultipartFi
     private static final long MAX_FILE_SIZE = 1024 * 1024 * 2; // 2MB
 
     // type 
-
     // height 
- 
+
     // width
 
     @Override

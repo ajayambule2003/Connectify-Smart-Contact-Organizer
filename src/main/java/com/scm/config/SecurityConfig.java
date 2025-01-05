@@ -21,10 +21,10 @@ public class SecurityConfig {
     // public UserDetailsService userDetailsService() {
     //About
     // UserDetails user1 = User
-    // .withDefaultPasswordEncoder()   
+    // .withDefaultPasswordEncoder() 
     // .username("admin123")
-    // .password("admin123")
-    // .roles("ADMIN", "USER")
+    // .password("admin123") 
+    // .roles("ADMIN", "USER") 
     // .build();
 
     // UserDetails user2 = User
