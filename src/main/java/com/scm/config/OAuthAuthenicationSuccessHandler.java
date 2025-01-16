@@ -14,9 +14,9 @@ import org.springframework.security.web.DefaultRedirectStrategy;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Component;
 
-import com.scm.entities.Providers;
+import com.scm.entities.Providers; 
 import com.scm.entities.User;
-import com.scm.helpers.AppConstants;
+import com.scm.helpers.AppConstants; 
 import com.scm.repsitories.UserRepo;
 
 import jakarta.servlet.ServletException;

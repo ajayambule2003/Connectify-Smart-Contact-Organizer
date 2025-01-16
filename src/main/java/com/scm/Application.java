@@ -1,19 +1,18 @@
 package com.scm;
 
-import com.scm.config.AppConfig;
-import com.scm.entities.User;
-import com.scm.helpers.AppConstants;
-import com.scm.repsitories.UserRepo;
+import java.util.List;
+import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import java.util.List;
-import java.util.UUID;
+import com.scm.entities.User;
+import com.scm.helpers.AppConstants;
+import com.scm.repsitories.UserRepo; 
 
- 
 @SpringBootApplication
 public class Application  implements CommandLineRunner {
 
